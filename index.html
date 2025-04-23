@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio web de un desarrollador frontend con proyectos, artículos y formulario de contacto.">
+  <meta name="keywords" content="frontend, desarrollador, proyectos, artículos, contacto">
+  <meta name="author" content="Mauro Salda">
+  <title>Página Principal</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #000;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      margin-top: 30px;
+    }
+
+    main section {
+      border: 1px solid black;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    article {
+      border: 1px solid black;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+    }
+
+    blockquote {
+      font-style: italic;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-family: 'Comic Sans MS', cursive;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Mauricio Salazar Saldarriaga</strong></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Frontend Developer</h1>
+      <p style="text-align:center;">html only with proper layout, no styling</p>
+    </section>
+
+    <div class="grid-container">
+      <section>
+        <h2>Projects</h2>
+        <ul>
+          <li>HTML Only Portfolio</li>
+          <li>Calculator</li>
+          <li>Quiz App</li>
+          <li>Countdown Timer</li>
+          <li>Product Upcoming Page</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Work Experience</h2>
+        <p><strong>roadmap.sh</strong></p>
+        <p>Resolvió todos los proyectos frontend</p>
+        <a href="#">Visit my Profile</a>
+
+        <p><strong>OpenSource Work</strong></p>
+        <p>Contribuí a 50 proyectos de código abierto. Creé mis propios proyectos con 200 estrellas de GitHub.</p>
+        <a href="#">https://github.com/maurox4800</a>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <p>Tecnico en desarrollo de software </p>
+        <p>SENA</p>
+        <ul>
+          <li>Programación Orientada a Objetos</li>
+          <li>Estructuras de datos y algoritmos</li>
+            <li>Ingeniería web</li>
+                <li>Inteligencia artificial</li>
+                    <li>Interacción humano-computadora</li>
+                        <li>Gráficos de computadora</li>
+                            <li>Sistemas de gestión de bases de datos</li>
+                                <li>Sistemas de bases de datos distribuidas</li>
+                                    <li>Matemáticas discretas</li>
+        </ul>
+      </section>
+    </div>
+    <section>
+      <h2>Reviews from my Teachers</h2>
+      <div class="grid-container">
+        <article>
+          <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus fugiat suscipit eligendi atque, ullam et aliquid repellat quia! Excepturi similique, officia optio rerum fuga cumque? Consequatur neque blanditiis quidem dignissimos.</blockquote>
+          <footer>Mauricio</footer>
+        </article>
+        <article>
+          <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut reprehenderit nemo repudiandae itaque nihil, quis, illum recusandae incidunt ipsum animi a, quia dolores sapiente? Officiis quae laboriosam autem ducimus esse!</blockquote>
+          <footer>Mauricio</footer>
+        </article>
+        <article>
+          <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aliquid sequi eum consequatur dicta quis libero sint quidem reiciendis asperiores architecto, inventore assumenda, ipsam aperiam deleniti, dolor eos sed labore!</blockquote>
+          <footer>Mauricio</footer>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; all rights reserved 2025
+  </footer>
+</body>
+</html>
